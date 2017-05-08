@@ -1,0 +1,9 @@
+uuid: 0cc247de-76f2-4bf9-9275-1901cdb50d68
+langcode: en
+status: true
+dependencies: {  }
+name: 'Knowledge Base Tags'
+vid: knowledge_base
+description: ''
+hierarchy: 0
+weight: 0
