@@ -1,0 +1,17 @@
+uuid: d7817cd2-b0c9-4aef-8335-f3512537c54e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Knowledge Base'
+type: knowledge_base
+description: 'Knowledge base article'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

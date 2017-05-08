@@ -1,0 +1,28 @@
+uuid: 54db03dc-1744-4a2d-8b2d-d169169d6bcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_knowledge_base_tags
+    - node.type.knowledge_base
+    - taxonomy.vocabulary.knowledge_base
+id: node.knowledge_base.field_knowledge_base_tags
+field_name: field_knowledge_base_tags
+entity_type: node
+bundle: knowledge_base
+label: 'Knowledge base tags'
+description: 'Add tags to categorize your article.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      knowledge_base: knowledge_base
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
