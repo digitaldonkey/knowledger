@@ -1,0 +1,137 @@
+use_format_specific_options: false
+default_highlighting: GESHIFILTER_DEFAULT_DONOTHING
+default_line_numbering: 0
+use_highlight_string_for_php: false
+enable_keyword_urls: true
+decode_entities: false
+css_mode: 1
+code_container: '2'
+tags: 'code blockcode'
+tag_styles:
+  2: 2
+  1: 0
+  4: 0
+  8: 0
+language:
+  php:
+    enabled: true
+    tags: php
+  cpp:
+    enabled: true
+    tags: cpp
+  java:
+    enabled: true
+    tags: java
+  actionscript:
+    enabled: true
+    tags: actionscript
+  apache:
+    enabled: true
+    tags: apache
+  applescript:
+    enabled: true
+    tags: applescript
+  apt_sources:
+    enabled: true
+    tags: apt_sources
+  bash:
+    enabled: true
+    tags: bash
+  c:
+    enabled: true
+    tags: c
+  cfm:
+    enabled: true
+    tags: cfm
+  clojure:
+    enabled: true
+    tags: clojure
+  cmake:
+    enabled: true
+    tags: cmake
+  coffeescript:
+    enabled: true
+    tags: coffeescript
+  cpp-qt:
+    enabled: true
+    tags: cpp-qt
+  csharp:
+    enabled: true
+    tags: csharp
+  css:
+    enabled: true
+    tags: css
+  diff:
+    enabled: true
+    tags: diff
+  ecmascript:
+    enabled: true
+    tags: ecmascript
+  go:
+    enabled: true
+    tags: go
+  haskell:
+    enabled: true
+    tags: haskell
+  html4strict:
+    enabled: true
+    tags: html4strict
+  html5:
+    enabled: true
+    tags: html5
+  java5:
+    enabled: true
+    tags: java5
+  javascript:
+    enabled: true
+    tags: javascript
+  jquery:
+    enabled: true
+    tags: jquery
+  make:
+    enabled: true
+    tags: make
+  matlab:
+    enabled: true
+    tags: matlab
+  mysql:
+    tags: mysql
+  objc:
+    enabled: true
+    tags: objc
+  pcre:
+    enabled: true
+    tags: pcre
+  perl:
+    enabled: true
+    tags: perl
+  perl6:
+    enabled: true
+    tags: perl6
+  pycon:
+    tags: pycon
+  pys60:
+    tags: pys60
+  python:
+    enabled: true
+    tags: python
+  rails:
+    enabled: true
+    tags: rails
+  ruby:
+    enabled: true
+    tags: ruby
+  sql:
+    enabled: true
+    tags: sql
+  typoscript:
+    enabled: true
+    tags: typoscript
+  xml:
+    enabled: true
+    tags: xml
+  yaml:
+    enabled: true
+    tags: yaml
+_core:
+  default_config_hash: rFxYA6H7ZH3mYsXr2lgP8oCdXvPXiCTr0Hjaxgu5Mts

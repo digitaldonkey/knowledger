@@ -1,0 +1,45 @@
+uuid: 12a690fc-9571-4f04-93b4-947ae40574b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.knowledge_base.body
+    - field.field.node.knowledge_base.field_header_image
+    - field.field.node.knowledge_base.field_knowledge_base_tags
+    - node.type.knowledge_base
+  module:
+    - image
+    - text
+    - user
+id: node.knowledge_base.full
+targetEntityType: node
+bundle: knowledge_base
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_header_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_knowledge_base_tags:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  links: true
