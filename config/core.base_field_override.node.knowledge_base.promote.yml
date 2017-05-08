@@ -1,0 +1,22 @@
+uuid: d8413dbc-fcd2-48b6-a3b1-952d6bf0fc45
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.knowledge_base
+id: node.knowledge_base.promote
+field_name: promote
+entity_type: node
+bundle: knowledge_base
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
