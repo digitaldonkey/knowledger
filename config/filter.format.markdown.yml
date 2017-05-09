@@ -82,4 +82,4 @@ filters:
     status: true
     weight: -43
     settings:
-      markdown_library: commonmark
+      markdown_library: php-markdown
