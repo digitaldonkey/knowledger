@@ -27,6 +27,7 @@ blockquote {
 .menu--main .menu {
   list-style-type: none;
   padding: 0;
+  margin-left: 0;
 }
 
 .menu--main .menu-item {
@@ -42,4 +43,22 @@ blockquote {
 
 .menu--main .menu a.is-active {
   color: #ababab;
+}
+
+.image-style-thumbnail {
+  width: 40px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.user--compact {
+}
+.user--compact .field--name-user-picture {
+  float: left;
+}
+.user--compact .field--name-user-picture .image-style-thumbnail{
+  width: 40px;
+  height: auto;
+  border-radius: 40px;
+  margin-right: 2em;
 }

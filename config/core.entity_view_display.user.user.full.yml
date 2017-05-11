@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.full
+    - field.field.user.user.field_name
     - field.field.user.user.field_user_slogan
     - field.field.user.user.user_picture
     - image.style.thumbnail
@@ -39,4 +40,5 @@ content:
       image_link: content
     third_party_settings: {  }
     label: hidden
-hidden: {  }
+hidden:
+  field_name: true
