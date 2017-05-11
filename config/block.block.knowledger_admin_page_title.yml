@@ -1,0 +1,20 @@
+uuid: ca756036-4f42-4df1-803d-3b554cef1ced
+langcode: en
+status: true
+dependencies:
+  theme:
+    - knowledger_admin
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: knowledger_admin_page_title
+theme: knowledger_admin
+region: header
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

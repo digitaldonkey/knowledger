@@ -1,0 +1,20 @@
+uuid: 2188aed0-5949-47d0-a19c-8df4c76f7e00
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - knowledger_admin
+id: userlogin
+theme: knowledger_admin
+region: content
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

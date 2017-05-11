@@ -1,0 +1,42 @@
+name: Knowledger Fontend
+type: theme
+description: 'Just some basic frontend.'
+core: 8.x
+base theme: classy
+
+libraries:
+  - classy/base
+  - core/normalize
+  - knowledger/global-styling
+  - seven/global-styling
+
+libraries-extend:
+  user/drupal.user:
+    - classy/user
+  core/drupal.dropbutton:
+    - classy/dropbutton
+  core/drupal.dialog:
+    - classy/dialog
+  file/drupal.file:
+    - classy/file
+  core/drupal.progress:
+    - classy/progress
+
+libraries-override:
+  seven/global-styling:
+    css:
+      component:
+        css/components/tabs.css: false
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first

@@ -1,0 +1,20 @@
+uuid: 6ffa47a8-2fb1-4825-b1f8-cadddc744017
+langcode: en
+status: true
+dependencies:
+  theme:
+    - knowledger_admin
+id: tabs_2
+theme: knowledger_admin
+region: pre_content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary Tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

@@ -4,14 +4,16 @@ default_line_numbering: 0
 use_highlight_string_for_php: false
 enable_keyword_urls: true
 decode_entities: false
-css_mode: 1
+css_mode: 2
 code_container: '2'
 tags: 'code blockcode'
 tag_styles:
-  2: 2
+  16: 16
   1: 0
+  2: 0
   4: 0
   8: 0
+tab_width: 2
 language:
   php:
     enabled: true
@@ -22,15 +24,18 @@ language:
   java:
     enabled: true
     tags: java
+  javascript:
+    enabled: true
+    tags: javascript
+  text:
+    enabled: true
+    tags: text
   actionscript:
     enabled: true
     tags: actionscript
   apache:
     enabled: true
     tags: apache
-  applescript:
-    enabled: true
-    tags: applescript
   apt_sources:
     enabled: true
     tags: apt_sources
@@ -55,6 +60,9 @@ language:
   cpp-qt:
     enabled: true
     tags: cpp-qt
+  cpp-winapi:
+    enabled: true
+    tags: cpp-winapi
   csharp:
     enabled: true
     tags: csharp
@@ -67,6 +75,9 @@ language:
   ecmascript:
     enabled: true
     tags: ecmascript
+  gettext:
+    enabled: true
+    tags: gettext
   go:
     enabled: true
     tags: go
@@ -79,26 +90,39 @@ language:
   html5:
     enabled: true
     tags: html5
+  j:
+    enabled: true
+    tags: j
   java5:
     enabled: true
     tags: java5
-  javascript:
-    enabled: true
-    tags: javascript
   jquery:
     enabled: true
     tags: jquery
   make:
     enabled: true
     tags: make
+  mathematica:
+    enabled: true
+    tags: mathematica
   matlab:
     enabled: true
     tags: matlab
   mysql:
+    enabled: true
     tags: mysql
+  nginx:
+    enabled: true
+    tags: nginx
   objc:
     enabled: true
     tags: objc
+  oracle11:
+    enabled: true
+    tags: oracle11
+  pascal:
+    enabled: true
+    tags: pascal
   pcre:
     enabled: true
     tags: pcre
@@ -108,9 +132,14 @@ language:
   perl6:
     enabled: true
     tags: perl6
+  postgresql:
+    enabled: true
+    tags: postgresql
   pycon:
+    enabled: true
     tags: pycon
   pys60:
+    enabled: true
     tags: pys60
   python:
     enabled: true
@@ -121,12 +150,23 @@ language:
   ruby:
     enabled: true
     tags: ruby
+  rust:
+    enabled: true
+    tags: rust
+  sass:
+    enabled: true
   sql:
     enabled: true
     tags: sql
+  twig:
+    enabled: true
+    tags: twig
   typoscript:
     enabled: true
     tags: typoscript
+  vbscript:
+    enabled: true
+    tags: vbscript
   xml:
     enabled: true
     tags: xml
@@ -134,4 +174,4 @@ language:
     enabled: true
     tags: yaml
 _core:
-  default_config_hash: rFxYA6H7ZH3mYsXr2lgP8oCdXvPXiCTr0Hjaxgu5Mts
+  default_config_hash: 1jZtSc2CSiEBA45nbX0wMKFY3bmcilIwOBQCKFscK0U

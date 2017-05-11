@@ -1,0 +1,45 @@
+.layout-container {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 2em 2% 1em;
+}
+
+div.geshifilter {
+  margin: .5em 0;
+}
+
+table {
+  margin: 1em 0;
+}
+
+thead th {
+  background: transparent !important;
+  border-top: 0 !important;
+}
+
+blockquote {
+  background: #f8f8f8;
+  padding: 0 .5em;
+}
+
+.menu--main .menu {}
+
+.menu--main .menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu--main .menu-item {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.menu--main .menu-item > a{
+  display: inline-block;
+  background: #f8f8f8;
+  padding: .5em .75em;
+}
+
+.menu--main .menu a.is-active {
+  color: #ababab;
+}
