@@ -1,0 +1,22 @@
+uuid: e8224ef4-3559-4f65-8cff-12e524b849a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - knowledger_admin
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: knowledger_admin_breadcrumbs
+theme: knowledger_admin
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

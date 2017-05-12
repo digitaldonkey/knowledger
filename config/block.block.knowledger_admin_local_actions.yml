@@ -1,0 +1,20 @@
+uuid: 91f1a461-11bd-47f9-a87b-c5374a5e7b93
+langcode: en
+status: true
+dependencies:
+  theme:
+    - knowledger_admin
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: knowledger_admin_local_actions
+theme: knowledger_admin
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

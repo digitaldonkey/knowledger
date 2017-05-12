@@ -1,0 +1,22 @@
+uuid: 30ec4e0e-a352-4518-a172-28eff2a05f4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - knowledger
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: knowledger_help
+theme: knowledger
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

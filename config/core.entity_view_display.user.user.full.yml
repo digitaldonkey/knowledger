@@ -1,9 +1,9 @@
-uuid: f42ba997-c7e9-4bae-91cf-10bbe58dba29
+uuid: 1e48f27f-bad2-46dd-a703-03a98b82beed
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.user.compact
+    - core.entity_view_mode.user.full
     - field.field.user.user.field_name
     - field.field.user.user.field_user_slogan
     - field.field.user.user.user_picture
@@ -12,27 +12,24 @@ dependencies:
     - image
     - user
 _core:
-  default_config_hash: '-cLsS3M3JycipXQt9rEb81_HxKneReoGuRh8ijcOPXs'
-id: user.user.compact
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.full
 targetEntityType: user
 bundle: user
-mode: compact
+mode: full
 content:
-  field_name:
-    type: string
+  field_user_slogan:
     weight: 1
-    region: content
-    label: visually_hidden
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-  field_user_slogan:
     type: string
+    region: content
+  member_for:
     weight: 2
     region: content
-    label: visually_hidden
-    settings:
-      link_to_entity: false
+    settings: {  }
     third_party_settings: {  }
   user_picture:
     type: image
@@ -44,4 +41,4 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
-  member_for: true
+  field_name: true

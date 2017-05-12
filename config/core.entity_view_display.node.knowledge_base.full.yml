@@ -1,8 +1,9 @@
-uuid: 9a2a7e08-a7e9-482a-952e-c8b8bbf9798f
+uuid: 12a690fc-9571-4f04-93b4-947ae40574b6
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.knowledge_base.body
     - field.field.node.knowledge_base.field_header_image
     - field.field.node.knowledge_base.field_knowledge_base_tags
@@ -11,15 +12,15 @@ dependencies:
     - image
     - text
     - user
-id: node.knowledge_base.default
+id: node.knowledge_base.full
 targetEntityType: node
 bundle: knowledge_base
-mode: default
+mode: full
 content:
   body:
     label: hidden
     type: text_default
-    weight: 2
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -33,7 +34,7 @@ content:
     type: image
     region: content
   field_knowledge_base_tags:
-    weight: 1
+    weight: 2
     label: above
     settings:
       link: true
