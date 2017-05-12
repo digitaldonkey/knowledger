@@ -4,7 +4,7 @@ default_line_numbering: 0
 use_highlight_string_for_php: false
 enable_keyword_urls: true
 decode_entities: false
-css_mode: 2
+css_mode: 1
 code_container: '2'
 tags: 'code blockcode'
 tag_styles:
