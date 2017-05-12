@@ -22,7 +22,7 @@ content:
     type: text_summary_or_trimmed
     weight: 1
     settings:
-      trim_length: 600
+      trim_length: 400
     third_party_settings: {  }
     region: content
   field_header_image:
@@ -32,13 +32,13 @@ content:
     label: hidden
     settings:
       image_style: ''
-      image_link: ''
+      image_link: content
     third_party_settings: {  }
   field_knowledge_base_tags:
     type: entity_reference_label
     weight: 2
     region: content
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }

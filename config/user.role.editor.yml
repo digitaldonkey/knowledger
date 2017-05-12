@@ -1,0 +1,37 @@
+uuid: 16d008d6-e6c4-4fda-8901-5fcd795c7d29
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access in-place editing'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'administer contact forms'
+  - 'administer menu'
+  - 'administer shortcuts'
+  - 'administer site configuration'
+  - 'administer users'
+  - 'cancel account'
+  - 'change own username'
+  - 'create url aliases'
+  - 'customize shortcut links'
+  - 'delete all revisions'
+  - 'delete terms in knowledge_base'
+  - 'edit terms in knowledge_base'
+  - 'link to any page'
+  - 'revert all revisions'
+  - 'switch shortcut sets'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

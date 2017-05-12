@@ -10,7 +10,7 @@ id: node.knowledge_base.field_knowledge_base_tags
 field_name: field_knowledge_base_tags
 entity_type: node
 bundle: knowledge_base
-label: 'Knowledge base tags'
+label: Tags
 description: 'Add tags to categorize your article.'
 required: true
 translatable: false

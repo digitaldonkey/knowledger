@@ -68,13 +68,6 @@ filters:
     weight: -43
     settings:
       filter_url_length: 72
-  markdown:
-    id: markdown
-    provider: markdown
-    status: true
-    weight: -49
-    settings:
-      markdown_library: php-markdown
   filter_geshifilter:
     id: filter_geshifilter
     provider: geshifilter
@@ -83,3 +76,10 @@ filters:
     settings:
       general_tags: {  }
       per_language_settings: {  }
+  markdown:
+    id: markdown
+    provider: markdown
+    status: true
+    weight: -49
+    settings:
+      markdown_library: php-markdown
